@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-detox/static/css/main.d1ddd14d.chunk.css",
+    "main.js": "/react-detox/static/js/main.d41d9da8.chunk.js",
+    "main.js.map": "/react-detox/static/js/main.d41d9da8.chunk.js.map",
+    "runtime-main.js": "/react-detox/static/js/runtime-main.4368d9b5.js",
+    "runtime-main.js.map": "/react-detox/static/js/runtime-main.4368d9b5.js.map",
+    "static/js/2.1aad5dfd.chunk.js": "/react-detox/static/js/2.1aad5dfd.chunk.js",
+    "static/js/2.1aad5dfd.chunk.js.map": "/react-detox/static/js/2.1aad5dfd.chunk.js.map",
+    "static/js/3.674125c6.chunk.js": "/react-detox/static/js/3.674125c6.chunk.js",
+    "static/js/3.674125c6.chunk.js.map": "/react-detox/static/js/3.674125c6.chunk.js.map",
+    "index.html": "/react-detox/index.html",
+    "static/css/main.d1ddd14d.chunk.css.map": "/react-detox/static/css/main.d1ddd14d.chunk.css.map",
+    "static/js/2.1aad5dfd.chunk.js.LICENSE.txt": "/react-detox/static/js/2.1aad5dfd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4368d9b5.js",
+    "static/js/2.1aad5dfd.chunk.js",
+    "static/css/main.d1ddd14d.chunk.css",
+    "static/js/main.d41d9da8.chunk.js"
+  ]
+}
