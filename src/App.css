@@ -12,17 +12,16 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+[data-donutty] {
+  display: inline-block;
+  margin-right: 30px;
+  vertical-align: middle;
 }
+.sideBar{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
 
 .App-link {
   color: #61dafb;
@@ -34,5 +33,37 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+@media screen and (max-width: 1024px){
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+}
+@media screen and (min-width: 1024px){
+  .App-header {
+    width:100%;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .sideBar{
+    width: 40%;
+    
+  }
+  .FeedB{
+    width: 100%;
   }
 }

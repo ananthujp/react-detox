@@ -1,0 +1,18 @@
+.avatar{
+    width: 20px;
+    height: 20px;
+    margin-left: 1%;
+}
+.comment_wrap{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    color: #cecece;
+}
+.comment_wrap>h3{
+    font-size: 11pt;
+    padding: 5px;
+}
+.comment_wrap>p{
+    padding: 5px;
+}

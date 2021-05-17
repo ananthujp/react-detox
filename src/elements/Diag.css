@@ -1,0 +1,72 @@
+#doNut {
+  display: grid;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* grid-gap: 20px; */
+}
+
+#grid-container > div {
+  text-align: center;
+}
+
+#donut {
+  width: 100%;
+}
+.item {
+  width: 100px;
+  align-items: center;
+  font-size: 11px;
+  padding: 5px 5px;
+}
+.r:hover {
+  background-color: rgb(240, 128, 128, 0.1);
+  border-radius: 10px;
+
+  transition: all 0.5s;
+}
+.g:hover {
+  background-color: rgb(127, 255, 212, 0.1);
+  border-radius: 10px;
+
+  transition: all 0.5s;
+}
+.v:hover {
+  background-color: rgb(123, 104, 238, 0.1);
+  border-radius: 10px;
+
+  transition: all 0.5s;
+}
+.item3:hover {
+  background-color: rgb(123, 104, 238, 0.1);
+
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.item2 {
+  align-items: center;
+  font-size: 11px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#donut2 {
+  width: 100%;
+}
+
+#donut3 {
+  width: 100%;
+}
+.item3 {
+  margin: 0 auto;
+  width: 80px;
+  padding: 10px 10px;
+}
+.Nut {
+  width: 50%;
+  justify-content: center;
+}

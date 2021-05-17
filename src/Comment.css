@@ -1,0 +1,35 @@
+.comment__wrap{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    background-color: #313640;
+    width: 100%;
+    border-radius: 10px;
+   
+}
+.comment_wrap__top{
+    display: flex;
+    padding: 15px;
+
+}
+.comment_wrap__top > form {
+    flex: 1;
+    display: flex;
+    margin-block-end: 0em;
+}
+.comment_wrap__top > form > input {
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: #8b93a0;
+    color: white;
+}
+.comment_wrap__top > form > button {
+    display: none;
+}
+
+.commment_Input{
+    flex: 1;
+}
