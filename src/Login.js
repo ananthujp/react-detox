@@ -20,7 +20,8 @@ function Login() {
             .catch((error) => alert(error.message));
     };
     return(
-        <div>
+        <div className="login">
+            <img alt="" src="https://cdn.dribbble.com/users/4504621/screenshots/15073881/media/2b9334b41f700d68fb02bac81484a374.jpg" />
             <Button type="submit" onClick={signIn}>
                 Sign In
             </Button>

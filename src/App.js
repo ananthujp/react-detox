@@ -30,7 +30,7 @@ function App() {
        <UserInfo name={user.displayName} img={user.photoURL} email={user.email}/>
        <p>Widgets : </p>
         {data1 == null ? (
-          "Loading..."
+          "Loading.."
         ) : (
           <Diagrams pass1={JSON.stringify(data1)} />
         )}
